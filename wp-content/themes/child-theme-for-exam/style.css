@@ -1,0 +1,49 @@
+/*
+Theme Name:     Child theme for Exam
+Description:    
+Author:         admin
+Template:       twentytwentythree
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+:root {
+	--main-brand: #568250;
+	--background: #F1F6F0;
+	--button: #ABD5A4;
+	--text: #1E2F1C;
+}
+
+h1 {
+	display: none;
+}
+
+h2 {
+	color: var(--main-brand); 
+	font-family: "Oswald", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p {
+	color: var(--text);
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background-color: var(--background);
+}
+
+li {
+	color: var(--main-brand);
+}
+
+.btn {
+	background-color: var(--button);
+	padding: 16px 24px;
+	border-radius: 200px;
+	margin:8px;
+}
