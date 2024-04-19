@@ -12,3 +12,18 @@
 [19-Apr-2024 19:43:22 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
 [19-Apr-2024 20:03:16 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
 [19-Apr-2024 20:07:04 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:17 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:21 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:23 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:31 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:34 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:38 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:09:44 UTC] PHP Deprecated:  Hook http_api_transports is deprecated since version 6.4.0 with no alternative available. in /wordpress/wp-includes/functions.php on line 135
+[19-Apr-2024 20:11:03 UTC] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/tooltips.php:218
+Stack trace:
+#0 /wordpress/wp-includes/class-wp-hook.php(3): implecode_ajax_wp_tooltip_hide('')
+#1 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters('', Array)
+#2 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#3 /wordpress/wp-admin/admin-ajax.php(2): do_action('wp_ajax_impleco...')
+#4 {main}
+  thrown in /wordpress/wp-content/plugins/ecommerce-product-catalog/includes/settings/tooltips.php on line 218
